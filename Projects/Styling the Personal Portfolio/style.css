@@ -1,0 +1,113 @@
+body{
+    background-image: url(R.jpg);
+    margin: 1em 10% 0 10%;
+    cursor: url("24907.png") , auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link{
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(83, 83, 194);
+    color: white;
+    padding: 10px;
+    cursor: url("24907.png") , auto;
+}
+a{
+    text-decoration: none;
+}
+.link:hover{
+    background-color: blue;
+}
+.about{
+    border: 3px;
+    border-radius: 8px;
+    background-color: rgb(235, 205, 97);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: url("24907.png") , auto;
+}
+.about:hover{
+    background-color: rgb(159, 132, 36);
+    border: 3px solid black;
+}
+.image{
+    width: 180px;
+    height: auto;
+    margin-left: 450px;
+}
+.about h1{
+    text-align: center;
+}
+.h2, .h3, .h1, .h4, .p1, .p2, .p3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: url("24907.png") , auto;
+}
+.school, .cours{
+    border: 3px;
+    border-radius: 8px;
+    background-color: rgb(255, 253, 253);
+    padding: 10px;
+    margin: 30px;
+    color: black;
+}
+.list-title{
+    color: gray;
+}
+.table{
+    border-collapse: collapse;
+}
+.table-row{
+    background-color: rgb(64, 181, 239);
+}
+.table-data{
+    background-color: rgb(171, 208, 226);
+}
+.arrow{
+    background-color: rgb(222, 25, 25);
+    color: white;
+    border-radius: 4px;
+    padding: 4PX;
+    cursor: url("24907.png") , auto;
+}
+.arrow:hover{
+    background-color: rgb(120, 0, 0);
+}
+.footer{
+    background-color: rgb(235, 205, 97);
+    padding: 35px;
+    margin: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.img{
+    margin-left: 360px;
+}
+.table-d-link{
+    margin-left: 470px; 
+    cursor: url("24907.png") , auto;
+}
+.table-b-link{
+    cursor: url("24907.png") , auto;
+}
+.table-l-link{
+    cursor: url("24907.png") , auto;
+}
+:hover{
+    cursor: url("24907.png") , auto;
+}
+
+
+
+
+
+
