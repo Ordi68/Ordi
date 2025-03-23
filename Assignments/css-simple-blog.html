@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .asside{
+            display: flex;
+            flex-direction: column;
+            flex: 0 ,0, 20%;
+            background-color: rgb(62, 67, 92);
+            width: 110%;
+            height: 750px;
+            justify-content: center;
+            align-items: end;
+            color: white;
+            font-size: 30px;
+            text-align: right;
+            padding: 30px;
+        }
+        .button{
+            border: 2px solid white;
+            background-color: rgb(62, 67, 92);
+            color: white
+        
+        }
+        .paragraph{
+            color: rgb(153, 153, 253);
+        }
+        .pinn, .hr{
+            opacity: 0.5;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            padding-left: 150px;
+            width: 100%;
+        }
+        .image{
+            width: 60px;
+            height: 60px;
+        }
+        .post-header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+        .css{
+            border: none;
+            background-color: rgb(21, 138, 21);
+            width: 20px;
+            padding: 6px;
+            color: white;
+        }
+        .html{
+            border: none;
+            background-color: rgb(96, 96, 192);
+            width: 20px;
+            padding: 5px;
+            color: white;
+        }
+        .john{
+            text-decoration: none;
+        }
+        .p{
+            font-size: large;
+            line-height: 1.6;
+        }
+        .java{
+            border: none;
+            background-color: rgb(203, 24, 54);
+            width: 25px;
+            padding: 6px;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <aside class="asside">
+            <span> <b>A <br>SIMPLE <br> BLOG</b></span>
+            <p class="paragraph">Lorem ipsum <br>dolor</p>
+            <button class="button">LOG IN</button>
+        </aside>
+    </div>
+    <div class="container">
+        <div class="first">
+            <p class="pinn">PINNED POST</p>
+            <hr class="hr">
+            <div class="post-header">
+              <h1>A pinned post</h1>
+            <img class="image" src="Sheik.png.png" alt="">  
+            </div>
+            <p>By <a class="john" href="">John Doe</a> under <span class="css">CSS</span> <span class="html">HTML</span></p>
+            <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sit eum,<br> molestias autem  voluptas  saepe tempore et praesentium, ad laudantium <br> dolore non  rerum suscipit expedita excepturi fuga. Sequi, totam voluptate!</p>
+        </div> <br> <br>
+
+        <div class="second">
+            <p class="pinn">RECENT POST</p>
+            <hr class="hr">
+            <div class="post-header">
+              <h1>A recent post</h1>
+            <img class="image" src="Sheik.png.png" alt="">  
+            </div>
+            <p>By <a class="john" href="">Rocky Balboa</a> under <span class="java">JavaScript</span></p>
+            <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sit eum,<br> molestias autem  voluptas  saepe tempore et praesentium, ad laudantium <br> dolore non  rerum suscipit expedita excepturi fuga. Sequi, totam voluptate!</p>
+        </div>
+    </div>
+</body>
+</html>
